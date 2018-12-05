@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4BDED2121B84324004B64E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDED2021B84324004B64E0 /* AppDelegate.swift */; };
+		E4BDED2321B84324004B64E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDED2221B84324004B64E0 /* ViewController.swift */; };
+		E4BDED2621B84324004B64E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BDED2421B84324004B64E0 /* Main.storyboard */; };
+		E4BDED2821B84326004B64E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BDED2721B84326004B64E0 /* Assets.xcassets */; };
+		E4BDED2B21B84326004B64E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BDED2921B84326004B64E0 /* LaunchScreen.storyboard */; };
+		E4BDED3621B84327004B64E0 /* RVTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDED3521B84327004B64E0 /* RVTrackingTests.swift */; };
+		E4BDED4121B84327004B64E0 /* RVTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDED4021B84327004B64E0 /* RVTrackingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4BDED3221B84327004B64E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4BDED1521B84324004B64E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BDED1C21B84324004B64E0;
+			remoteInfo = RVTracking;
+		};
+		E4BDED3D21B84327004B64E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4BDED1521B84324004B64E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BDED1C21B84324004B64E0;
+			remoteInfo = RVTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4BDED1D21B84324004B64E0 /* RVTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RVTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BDED2021B84324004B64E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4BDED2221B84324004B64E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4BDED2521B84324004B64E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4BDED2721B84326004B64E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4BDED2A21B84326004B64E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4BDED2C21B84326004B64E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4BDED3121B84327004B64E0 /* RVTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RVTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BDED3521B84327004B64E0 /* RVTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVTrackingTests.swift; sourceTree = "<group>"; };
+		E4BDED3721B84327004B64E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4BDED3C21B84327004B64E0 /* RVTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RVTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BDED4021B84327004B64E0 /* RVTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVTrackingUITests.swift; sourceTree = "<group>"; };
+		E4BDED4221B84327004B64E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4BDED1A21B84324004B64E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BDED2E21B84327004B64E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BDED3921B84327004B64E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4BDED1421B84324004B64E0 = {
+			isa = PBXGroup;
+			children = (
+				E4BDED1F21B84324004B64E0 /* RVTracking */,
+				E4BDED3421B84327004B64E0 /* RVTrackingTests */,
+				E4BDED3F21B84327004B64E0 /* RVTrackingUITests */,
+				E4BDED1E21B84324004B64E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4BDED1E21B84324004B64E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDED1D21B84324004B64E0 /* RVTracking.app */,
+				E4BDED3121B84327004B64E0 /* RVTrackingTests.xctest */,
+				E4BDED3C21B84327004B64E0 /* RVTrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4BDED1F21B84324004B64E0 /* RVTracking */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDED2021B84324004B64E0 /* AppDelegate.swift */,
+				E4BDED2221B84324004B64E0 /* ViewController.swift */,
+				E4BDED2421B84324004B64E0 /* Main.storyboard */,
+				E4BDED2721B84326004B64E0 /* Assets.xcassets */,
+				E4BDED2921B84326004B64E0 /* LaunchScreen.storyboard */,
+				E4BDED2C21B84326004B64E0 /* Info.plist */,
+			);
+			path = RVTracking;
+			sourceTree = "<group>";
+		};
+		E4BDED3421B84327004B64E0 /* RVTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDED3521B84327004B64E0 /* RVTrackingTests.swift */,
+				E4BDED3721B84327004B64E0 /* Info.plist */,
+			);
+			path = RVTrackingTests;
+			sourceTree = "<group>";
+		};
+		E4BDED3F21B84327004B64E0 /* RVTrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDED4021B84327004B64E0 /* RVTrackingUITests.swift */,
+				E4BDED4221B84327004B64E0 /* Info.plist */,
+			);
+			path = RVTrackingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4BDED1C21B84324004B64E0 /* RVTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BDED4521B84327004B64E0 /* Build configuration list for PBXNativeTarget "RVTracking" */;
+			buildPhases = (
+				E4BDED1921B84324004B64E0 /* Sources */,
+				E4BDED1A21B84324004B64E0 /* Frameworks */,
+				E4BDED1B21B84324004B64E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVTracking;
+			productName = RVTracking;
+			productReference = E4BDED1D21B84324004B64E0 /* RVTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4BDED3021B84327004B64E0 /* RVTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BDED4821B84327004B64E0 /* Build configuration list for PBXNativeTarget "RVTrackingTests" */;
+			buildPhases = (
+				E4BDED2D21B84327004B64E0 /* Sources */,
+				E4BDED2E21B84327004B64E0 /* Frameworks */,
+				E4BDED2F21B84327004B64E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4BDED3321B84327004B64E0 /* PBXTargetDependency */,
+			);
+			name = RVTrackingTests;
+			productName = RVTrackingTests;
+			productReference = E4BDED3121B84327004B64E0 /* RVTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4BDED3B21B84327004B64E0 /* RVTrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BDED4B21B84327004B64E0 /* Build configuration list for PBXNativeTarget "RVTrackingUITests" */;
+			buildPhases = (
+				E4BDED3821B84327004B64E0 /* Sources */,
+				E4BDED3921B84327004B64E0 /* Frameworks */,
+				E4BDED3A21B84327004B64E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4BDED3E21B84327004B64E0 /* PBXTargetDependency */,
+			);
+			name = RVTrackingUITests;
+			productName = RVTrackingUITests;
+			productReference = E4BDED3C21B84327004B64E0 /* RVTrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4BDED1521B84324004B64E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Alicia MacCara";
+				TargetAttributes = {
+					E4BDED1C21B84324004B64E0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E4BDED3021B84327004B64E0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E4BDED1C21B84324004B64E0;
+					};
+					E4BDED3B21B84327004B64E0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E4BDED1C21B84324004B64E0;
+					};
+				};
+			};
+			buildConfigurationList = E4BDED1821B84324004B64E0 /* Build configuration list for PBXProject "RVTracking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4BDED1421B84324004B64E0;
+			productRefGroup = E4BDED1E21B84324004B64E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4BDED1C21B84324004B64E0 /* RVTracking */,
+				E4BDED3021B84327004B64E0 /* RVTrackingTests */,
+				E4BDED3B21B84327004B64E0 /* RVTrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4BDED1B21B84324004B64E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BDED2B21B84326004B64E0 /* LaunchScreen.storyboard in Resources */,
+				E4BDED2821B84326004B64E0 /* Assets.xcassets in Resources */,
+				E4BDED2621B84324004B64E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BDED2F21B84327004B64E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BDED3A21B84327004B64E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4BDED1921B84324004B64E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BDED2321B84324004B64E0 /* ViewController.swift in Sources */,
+				E4BDED2121B84324004B64E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BDED2D21B84327004B64E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BDED3621B84327004B64E0 /* RVTrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BDED3821B84327004B64E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BDED4121B84327004B64E0 /* RVTrackingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4BDED3321B84327004B64E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BDED1C21B84324004B64E0 /* RVTracking */;
+			targetProxy = E4BDED3221B84327004B64E0 /* PBXContainerItemProxy */;
+		};
+		E4BDED3E21B84327004B64E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BDED1C21B84324004B64E0 /* RVTracking */;
+			targetProxy = E4BDED3D21B84327004B64E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4BDED2421B84324004B64E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4BDED2521B84324004B64E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4BDED2921B84326004B64E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4BDED2A21B84326004B64E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4BDED4321B84327004B64E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4BDED4421B84327004B64E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4BDED4621B84327004B64E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DWV78Y746;
+				INFOPLIST_FILE = RVTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alimariemac.RVTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4BDED4721B84327004B64E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DWV78Y746;
+				INFOPLIST_FILE = RVTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alimariemac.RVTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4BDED4921B84327004B64E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DWV78Y746;
+				INFOPLIST_FILE = RVTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alimariemac.RVTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RVTracking.app/RVTracking";
+			};
+			name = Debug;
+		};
+		E4BDED4A21B84327004B64E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DWV78Y746;
+				INFOPLIST_FILE = RVTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alimariemac.RVTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RVTracking.app/RVTracking";
+			};
+			name = Release;
+		};
+		E4BDED4C21B84327004B64E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DWV78Y746;
+				INFOPLIST_FILE = RVTrackingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alimariemac.RVTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RVTracking;
+			};
+			name = Debug;
+		};
+		E4BDED4D21B84327004B64E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DWV78Y746;
+				INFOPLIST_FILE = RVTrackingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alimariemac.RVTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RVTracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4BDED1821B84324004B64E0 /* Build configuration list for PBXProject "RVTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BDED4321B84327004B64E0 /* Debug */,
+				E4BDED4421B84327004B64E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BDED4521B84327004B64E0 /* Build configuration list for PBXNativeTarget "RVTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BDED4621B84327004B64E0 /* Debug */,
+				E4BDED4721B84327004B64E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BDED4821B84327004B64E0 /* Build configuration list for PBXNativeTarget "RVTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BDED4921B84327004B64E0 /* Debug */,
+				E4BDED4A21B84327004B64E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BDED4B21B84327004B64E0 /* Build configuration list for PBXNativeTarget "RVTrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BDED4C21B84327004B64E0 /* Debug */,
+				E4BDED4D21B84327004B64E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4BDED1521B84324004B64E0 /* Project object */;
+}
